@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "obvu\\report-collector\\": ""
+            "obvu\\report_collector\\": ""
         }
     }
 }
