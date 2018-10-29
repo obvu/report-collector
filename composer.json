@@ -1,0 +1,21 @@
+{
+    "name": "obvu/report-collector",
+    "description": "Report Collector",
+    "type": "library",
+    "keywords": ["report collector"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Obvu",
+            "email": "anton@obvu.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "obvu\\report\\collection\\": ""
+        }
+    }
+}
