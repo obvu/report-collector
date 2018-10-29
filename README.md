@@ -1,31 +1,34 @@
 Obvu
 ====
-Report Collector
+Сборщик информации с рекламных каналов
 
-Installation
+Установка
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either run
+Установка через composer
 
 ```
 php composer.phar require --prefer-dist obvu/report-collector "*"
 ```
 
-or add
+или добавить
 
 ```
 "obvu/report-collector": "*"
 ```
 
-to the require section of your `composer.json` file.
+в require в `composer.json`
 
 
-Usage
+Использование
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
 ```php
-<?= \obvu\report\collection\AutoloadExample::widget(); ?>```
+$collector = new ReportCollectorComponent();
+print_r($collector->getDirectReport());
+```
+
+Планы
+-----
+
+* сборка Яндекс.Директа
