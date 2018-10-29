@@ -1,5 +1,5 @@
 {
-    "name": "obvu/report-collector",
+    "name": "obvu/report_collector",
     "description": "Report Collector",
     "type": "library",
     "keywords": ["report collector"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "obvu\\report\\collection\\": ""
+            "obvu\\report-collector\\": ""
         }
     }
 }

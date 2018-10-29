@@ -1,6 +1,6 @@
 <?php
 
-namespace obvu\report\collection;
+namespace obvu\report_collector;
 
 /**
  * This is just an example.
